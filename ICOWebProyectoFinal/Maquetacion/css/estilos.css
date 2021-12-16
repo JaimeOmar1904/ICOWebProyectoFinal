@@ -234,7 +234,30 @@ aside .widget ul li{
     margin-bottom: 5px;
     font-size: 15px;
 }
+
+/*Nuestros Estilos*/
 .wi{
+    color: white;
+    font-size: 14px;
+}
+.wi2{
+    color: white;
+    font-size: 13px;
+    font-family: cursive;
+}
+.wi3{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: monospace;
+}
+.titulos{
+    text-align: center;
+    color: white;
+}
+.subtitulo{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: left;
     color: white;
 }
 

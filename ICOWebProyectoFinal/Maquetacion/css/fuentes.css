@@ -10,3 +10,7 @@
     src:url(../fuentes/sourcesans/SourceSansPro-Light.otf);
     
 }
+@font-face {
+    font-family: 'Cinzel', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+}
