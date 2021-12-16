@@ -172,8 +172,8 @@ header #subheader nav ul li a:hover{
 }
 
 #contenido article .thumb{
-    width: 220px; /*largo*/
-    height: 150px;/*ancho*/
+    width: 150px; /*largo*/
+    height: 240px;/*ancho*/
     float: left;/*elementos a la izquierda*/
     margin: 0px 10px 10px 0px;
     
