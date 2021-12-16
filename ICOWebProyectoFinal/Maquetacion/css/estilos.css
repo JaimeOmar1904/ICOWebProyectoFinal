@@ -2,7 +2,7 @@
 @import url('fuentes.css');
 /*-- Estilos generales--*/
 body{
-    background:#2d2d2d;
+    background:#060131;
     font-family:fantasy, inherit, sans-serif;
         
 }
@@ -145,6 +145,9 @@ header #subheader nav ul li a:hover{
 }
 
 /*Contenido*/
+.textocenter{
+    text-align: center;
+}
 
 #contenido{
     width: 700px;
