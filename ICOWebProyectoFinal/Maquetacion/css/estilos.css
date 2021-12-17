@@ -108,8 +108,9 @@ header #subheader nav ul li a:hover{
     height: 462px;
     float: left;
     background: #000;   
-    border: solid 20px white;
+    border: solid 10px white;
     margin-bottom: 10px;
+    border-radius: 15px;
     
 }
 
