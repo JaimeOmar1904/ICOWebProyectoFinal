@@ -14,3 +14,8 @@
     font-family: 'Cinzel', serif;
     src: url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 }
+
+@font-face {
+    font-family: Station;
+    src: url(../fuentes/sourcesans/Nightmare\ Station.otf);
+}
