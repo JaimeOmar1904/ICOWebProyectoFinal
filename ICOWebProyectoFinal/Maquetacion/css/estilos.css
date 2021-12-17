@@ -105,7 +105,7 @@ header #subheader nav ul li a:hover{
 
 #slideshow{
     width: 920px;
-    height: 260px;
+    height: 462px;
     float: left;
     background: #000;   
     border: solid 20px white;
@@ -259,6 +259,10 @@ aside .widget ul li{
     font-size: 20px;
     text-align: left;
     color: white;
+}
+.slideshow{
+    width: 920px;
+    height: 462px;
 }
 
 
