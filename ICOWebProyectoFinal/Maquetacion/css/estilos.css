@@ -159,6 +159,9 @@ header #subheader nav ul li a:hover{
 #contenido article{
     float: left;
     margin-bottom: 20px;
+    border: solid 1px;
+    border-color: #ffffff;
+    background: #334681;
 }
 
 #contenido article .titulo{
@@ -171,7 +174,7 @@ header #subheader nav ul li a:hover{
 #contenido article .fecha{
     
     font-size: 15px;/*tamaño de letra*/
-    color:#1798af;
+    color:#20CAE8;
     margin-bottom: 5px;/*margen hacia abajo*/
 }
 
@@ -182,6 +185,7 @@ header #subheader nav ul li a:hover{
     margin: 0px 10px 10px 0px;
     
 }
+
 .thumb{ /*imagen formato*/
     width: 220px; /*largo*/
     height: 150px;/*ancho*/
@@ -192,9 +196,22 @@ header #subheader nav ul li a:hover{
 
 #contenido article >p{
     color: #8c8c8c;
-    font-size:14px;
+    font-size: 22px;
     text-align: justify;
     line-height: 27px;/*espaciando entre cada linea*/
+    padding-right: 15px;
+}
+
+#final table {
+
+    font-size:  30px;
+    font-family: sourcesans;
+    text-align: justify;
+    background:  #787e80;
+    color:  #000;
+    text-align: center;
+    width: 920px;
+    margin: auto;
 }
 
 /*Sidebar*/
@@ -275,16 +292,11 @@ aside .widget ul li{
     font-family: Station;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#acerda-de section {
+    font-family: monospace;
+    font-size: 25px;
+    border: solid  2px;
+    border-color: #ffffff;
+    color: #ffffff;
+    padding-left: 10px;
+}
