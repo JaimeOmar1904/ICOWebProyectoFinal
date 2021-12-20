@@ -19,3 +19,7 @@
     font-family: Station;
     src: url(../fuentes/sourcesans/Nightmare\ Station.otf);
 }
+@font-face {
+    font-family: origin tech;
+    src: url(../fuentes/sourcesans/OriginTech\ personal\ use.otf);
+}
