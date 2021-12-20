@@ -288,6 +288,10 @@ aside .widget ul li{
     font-size: 14px;
 }
 
+.backB{
+    background: #2060E8;
+}
+
 /*Funtes*/
 .fuenteStation{
     font-family: Station;
@@ -301,4 +305,121 @@ aside .widget ul li{
     border-color: #ffffff;
     color: #ffffff;
     padding-left: 10px;
+}
+
+.scrollHor{  
+    width: auto; 
+    height: 360px;
+    white-space: nowrap;    
+    overflow-x: auto; 
+    overflow-y: hidden;
+}
+
+.centrarCont{
+    padding-top: 75px;
+}
+
+#lineaTab p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#lineaTab button{
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 10%;
+}
+
+#lineaTab img{
+   width: 100px; 
+   height: 100px;
+}
+
+
+#lineaTab  td{
+    border: solid 10px;
+    border-color: white;
+    padding: 10px;
+    background-color: rgb(0, 176, 206);
+}
+
+#lineaTab h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+/* Invisible texto */
+figcaption {
+  display:none; 
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
+}
+
+.fuente25{
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+    text-align: justify;
+
+}
+
+.img150{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+
+.borde1{
+    border: solid 5px ;
+    border-radius: 1px;
+    border-color: white;
+    margin: -5px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active{
+    visibility: visible;
+}
+
+.popup{
+    background: rgb(0, 176, 206);
+    box-shadow: 0px, 0px, 5px, 0px rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    font-family: monospace;
+    padding: 20px;
+    text-align: center;
+    width: 900px;
+}
+
+.popup .btn-cerrar-popup{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: white;
+}
+
+.popup .btn-cerrar-popup: hover {
+    color: black;    
 }
