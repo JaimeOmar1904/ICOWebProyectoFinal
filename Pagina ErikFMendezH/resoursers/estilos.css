@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(38, 0, 255);
+}
+@font-face{
+    font-family: Cream;
+    src: url(fuente/Sticky\ Notes.otf);
+}
+@font-face {
+    font-family: Game;
+    src: url(fuente/Gameplay.ttf);
+}
+@font-face {
+    font-family: arse;
+    src: url(fuente/ArsenicaTrial-Medium.ttf);
+}
+.fondoblanco{
+    background-color: rgb(255, 0, 0);
+}
+.fondoazul{
+    background-color: rgb(255, 94, 0);
+}
+.texto1{
+    font-family: Game;
+    text-align: center;
+    font-size: 5em;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.texto2{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 4.5em;
+}
+.txt1{
+    font-family: cream;
+    text-align: justify;
+    color: rgb(68, 0, 255);
+    padding: 10px;
+    font-size: 4.5em;
+}
+.txt2{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.fondoimagen{
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 300px;
+    padding: 100px;
+    font-family: arse;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.hollo{
+    background-image: url(https://image.api.playstation.com/cdn/EP1805/CUSA13285_00/DmwPWlU0468FbsjrtI92FhQz1xBYMoog.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 300px;
+    padding: 100px;
+    font-family: cream;
+    font-size: 22px;
+    color: rgb(119, 0, 255);
+    font-size: 80px;
+    
+}
+.tetris{
+    background-image: url(https://media.vandal.net/m/61774/tetris-effect-20181191221128_6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 300px;
+    padding: 100px;
+    font-family: cream;
+    font-size: 22px;
+    color: rgb(119, 0, 255);
+    font-size: 80px;
+}
+.hade{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 300px;
+    padding: 100px;
+    font-family: cream;
+    font-size: 22px;
+    color: rgb(119, 0, 255);
+    font-size: 80px;
+}
+.toem{
+    background-image: url(https://i.3djuegos.com/juegos/18121/toem/fotos/ficha/toem-5496941.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 250px;
+    padding: 100px;
+    font-family: cream;
+    font-size: 22px;
+    color: rgb(119, 0, 255);
+    font-size: 80px;
+}
+.tail{
+    background-image: url(https://as01.epimg.net/meristation/imagenes/2021/08/17/cover/937500651629196729.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 250px;
+    padding: 140px;
+    font-family: cream;
+    font-size: 22px;
+    color: rgb(119, 0, 255);
+    font-size: 80px;
+}
